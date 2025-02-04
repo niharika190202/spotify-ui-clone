@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    font-style: normal;
+}
+
+body{
+    background-color: black;
+    color: white; 
+}
+
+
+.left{
+    width: 25%;
+    padding: 10px;
+}
+
+.right{
+    width: 75%;
+    margin: 16px 0;
+    position: relative;
+}
+
+.home ul li{
+    display: flex;
+    gap: 15px;
+    width: 15px;
+    list-style: none;
+    padding-top: 14px;
+}
+
+.heading{
+    display: flex;
+    font-size: 17px;
+    font-weight:bold;
+    width: 100%;
+    gap: 10px;
+    padding-top: 14px;
+    align-items: center;
+}
+
+.heading img{
+    width: 15px;
+
+}  
+
+.library{
+    min-height: 80vh;
+    position: relative;
+    
+}
+
+.footer{
+    display: flex;
+    font-size: 10px;
+    gap: 13px;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0;
+}
+
+.footer a {
+    color: gray;
+    text-decoration: none;
+}
+
+.header{
+    height: 96px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 50, 50);
+}
+
+.header > *{
+    padding: 20px;
+}
+
+/* For webkit browsers (e.g., Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+    width: 12px; /* Scrollbar width */
+    height: 12px; /* Scrollbar height for horizontal bars */
+}
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e; /* Dark track background */
+    border-radius: 6px; /* Rounded corners */
+}
+
+::-webkit-scrollbar-thumb {
+    background: #444; /* Dark gray thumb */
+    border-radius: 6px; /* Rounded corners for the thumb */
+    border: 2px solid #1e1e1e; /* Adds spacing around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555; /* Slightly lighter gray on hover */
+}
+
+/* For Firefox */
+* {
+    scrollbar-width: thin; /* Slim scrollbar */
+    scrollbar-color: #444 #1e1e1e; /* Thumb color, Track color */
+}
+
